@@ -2,7 +2,7 @@ package exercise1;
 
 public class Exercise1{
 	
-	public static void main(String []args){
+	public static void main(String[] args){
 		Permutation perm1= new Permutation (“Silent”,”Listen”);
 		Permutation perm2= new Permutation (“Triangle”,”Integral”);
 		Permutation perm3= new Permutation (“Apple”,”Pabble”);
