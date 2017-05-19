@@ -17,6 +17,9 @@ public class Permutation{
     		}
 		HashMap<Character, Integer> map1 = getFrequencies(s1);
 		HashMap<Character, Integer> map2 = getFrequencies(s2);
+		
+		// You could just use Map equality comparison here (this works though).
+		
 		for(Character c : map1.keySet()){
 			if(map2.get(c) != map1.get(c)){
 				return false;
@@ -35,7 +38,8 @@ public class Permutation{
 			} else {
 				frequency = 0;
 			}
-		map.put(c, frequency + 1);
+		map.put(c, frequency + 1); // fix indent of this line?
+			
 		}
     		return map;
 	}
